@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="<{$xoops_charset}>"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<div id="wap">
+<div id="titlebar">
+	<div class="titlebarleft"> </div>
+	<div class="titlebarright"> </div>
+	<a href="<{$xoops_url}>/"><{$xoops_sitename}></a>
+</div>
+<div id="main_body">
+<div id="display">
+	<div class="controlleft"> </div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+	<td id="leftcolumn">
+	<!-- Start left blocks loop -->
+	<{foreach item=block from=$xoops_lblocks}>
+	<table cellspacing="0" cellpadding="0" width="100%">
+	  <tr>
+		<td class="blockTitle"><{$block.title}></td>
+	  </tr>
+	  <tr>
+		<td class="blockContent"><{$block.content}></td>
+	  </tr>
+	  <tr>
+	    <td class="blockBottom"></td>
+	  </tr>
+	</table>
+	<{/foreach}>
+	<!-- End left blocks loop -->
+	</td>
+	<td id="centercolumn">
+	<!-- Display center blocks if any -->
+	<{if $xoops_showcblock == 1}>
+	<!-- Start center-center blocks loop -->
+	<{foreach item=block from=$xoops_ccblocks}>
+	<table cellspacing="0" cellpadding="0" width="100%">
+	  <tr>
+		<td class="blockTitle"><{$block.title}></td>
+	  </tr>
+	  <tr>
+		<td class="blockContent"><{$block.content}></td>
+	  </tr>
+	  <tr>
+		<td class="blockBottom"></td>
+	  </tr>
+	</table>
+ 	<{/foreach}>
+	<!-- End center-center blocks loop -->
+ 	<{/if}>
+	<!-- End display center blocks -->
+	<{if $xoops_contents == ""}>
+	<{else}>
+	<table cellspacing="0" cellpadding="0" width="100%">
+	  <tr>
+		<td class="blockTitle"><{$xoops_pagetitle}></td>
+	  </tr>
+	  <tr>
+		<td class="blockContent"><{$xoops_contents}></td>
+	  </tr>
+	  <tr>
+	    <td class="blockBottom"></td>
+	  </tr>
+	</table>
+	<{/if}>
+    </td>
+	<{if $xoops_showrblock == 0}>
+	<td class="rightblocks">
+	  <!-- Start right blocks loop -->
+	  <{foreach item=block from=$xoops_rblocks}>
+	  <div class="blockTitle"><{$block.title}></div>
+	  <div class="blockContent"><{$block.content}></div>
+	  <{/foreach}>
+	  <!-- End right blocks loop -->
+	  <{/if}>
+	</td>
+  </tr>
+</table>
+<{if ($xoops_banner == "")}>
+<{else}>
+<div id="advs"><{$xoops_banner}></div>
+<{/if}>
+</div>
+<div id="footbar">
+<{$xoops_footer}> :: <a href="http://www.theme4u.net/" target="_blank">Fy Style iTunes beta2</a>
+</div>
+</body>
+</html>

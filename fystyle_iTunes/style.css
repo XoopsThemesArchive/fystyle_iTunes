@@ -1,0 +1,519 @@
+/* --------------------------------- */
+/*  XOOPS Style Sheet                */
+/* --------------------------------- */
+
+
+/* SITE BODY Style */
+
+body{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: #A5A5A5;
+	text-align: center;
+	line-height: 110%;
+	}
+
+table,td,tr	{
+	font-size: 11px
+	}
+
+th{
+	background-image: url(images/head_mid_bg.gif);
+	font-weight: normal;
+	padding: 0 5px;
+	}
+
+th a{
+	font-weight: normal
+	}
+
+img{
+	vertical-align:middle;
+	border: 0px
+	}
+
+
+/* Link Style -----------------------*/
+
+a:link, a:visited, a:active{
+	color: #000000;
+	text-decoration: none
+	}
+
+a:hover{
+	text-decoration: underline
+	}
+
+
+/* List Style ---------------------- */
+
+ul	{
+	margin: 0px;
+	padding: 0px;
+	list-style: circle inside;
+	text-align: left
+	}
+
+li	{
+	margin-left: 3px;
+	list-style: circle inside;
+	}
+
+
+/* General text -------------------- */
+
+.genmed{
+	font-size: 10px
+	}
+
+.gensmall{
+	font-size: 11px
+	}
+
+
+/* TitleBar ------------------------ */
+
+#wap {
+	width: 780px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.titlebarleft {
+	float: left;
+	height: 25px;
+	width: 65px;
+	}
+
+#titlebar {
+	background-image: url(images/titlebar_mid_bg.gif);
+	font-family: "Lucida Sans Unicode", sans-serif;
+	text-align: center;
+	font-size: 13px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 100%
+	}
+.titlebar a {
+	color: #000000;
+	}
+
+.titlebarright {
+	float: right;
+	width: 65px;
+	height: 25px;
+	}
+
+#display {
+	background-image: url(images/display_mid_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 55px;
+	}
+
+.controlleft {
+	background-image: url(images/control_mid_bg.gif);
+	float: left;
+	height: 55px;
+	width: 111px;
+	margin-left: 30px;
+	}
+
+#main_body {
+	background-image: url(images/main_bg.png);
+	}
+
+#advs {
+	text-align: center;
+	}
+
+#footbar {
+	background-image: url(images/footbar_mid_bg.gif);
+	font-family: "Lucida Sans Unicode", sans-serif;
+	text-align: center;
+	font-size: 11px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	width: 100%
+	}
+
+/* Border Style -------------------- */
+
+
+
+/* Table Block Style --------------- */
+
+#leftcolumn{
+	width: 170px;
+	vertical-align: top;
+	padding: 10px;
+	}
+
+#leftcolumn .blockTitle{
+	background: url(images/blockTitle.gif) no-repeat;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 10px;
+	line-height: 19px;
+	height: 19px;
+	}
+
+#leftcolumn .blockContent{
+	background: url(images/blockBack.gif) repeat-y;
+	text-align: center;
+	padding: 1px;
+	}
+
+#leftcolumn .blockBottom{
+	background: url(images/blockBottom.gif) no-repeat;
+	height: 2px;
+	margin-bottom: 3px;
+	}
+
+
+#centercolumn{
+	vertical-align: top;
+	padding: 10px 12px 10px 0;
+	}
+
+#centercolumn .blockTitle{
+	background: url(images/center_bg.gif) no-repeat;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	height: 18px;
+	padding-left: 5px;
+	}
+
+#centercolumn .blockContent{
+	background: url(images/center_content.gif) repeat-y;
+	padding: 5px 8px 5px 5px;
+	}
+
+#centercolumn .blockBottom{
+	background: url(images/center_bottom.gif) no-repeat;
+	height: 2px;
+	margin-bottom: 3px;
+	}
+
+/* Block Style --------------------- */
+
+#copyright{
+	background: #666666;
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+	color: #ffc;
+	font-size: 11px;
+}
+
+/* Mainmenu Style ------------------ */
+
+td#mainmenu {
+	line-height: 1.4em;
+	font-size: 12px;
+	width: 170px;
+	padding-left: 1px;
+	}
+
+td#mainmenu a {
+	color: #000000;
+	}
+
+td#mainmenu a:active {
+
+	}
+
+td#mainmenu a.menuTop {
+	padding-left: 5px;
+	}
+
+td#mainmenu a.menuTop:hover{
+	background: url(images/menu_hover.gif) repeat-x;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+td#mainmenu a.menuMain {
+	padding-left: 5px;
+	}
+
+td#mainmenu a.menuMain:hover{
+	background: url(images/menu_hover.gif) repeat-x;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+td#mainmenu a.menuSub {
+	line-height: 1.0em;
+	padding-left: 15px;
+	}
+
+td#mainmenu a.menuSub:hover {
+	background: url(images/menu_hover.gif) repeat-x;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+
+/* Usermenu Style ------------------ */
+
+td#usermenu {
+	line-height: 1.4em;
+	font-size: 12px;
+	width: 170px;
+	padding-left: 1px;
+	}
+
+td#usermenu a {
+	color: #000000;
+	line-height: 1.0em;
+	padding-left: 5px;
+	}
+
+td#usermenu a:hover {
+	background: url(images/menu_hover.gif) repeat-x;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+td#usermenu a.menuTop {
+	}
+
+td#usermenu a.highlight {
+	}
+
+
+/* NEWS Style ---------------------- */
+
+.item {
+	}
+
+.itemHead {
+	background-image: url(images/head_mid_bg.gif);
+	border: 1px solid #666666;
+	font-weight: normal;
+	padding: 1px 5px;
+	}
+
+.itemInfo {
+	background-color: #edf3fe;
+	border: 1px solid #666666;
+	border-width: 0 1px 1px 1px;
+	padding: 1px 5px;
+	text-align: right;
+	font-size: 10px;
+	}
+
+.itemTitle a {}
+
+.itemPoster {
+	}
+
+.itemPostDate {}
+
+.itemStats {}
+
+.itemBody {
+	border: 1px solid #666666;
+	border-width: 0 1px 1px 1px;
+	padding: 2px 5px 2px 5px;
+	line-height: 1.5em;
+	}
+
+.itemText {
+	}
+
+.itemFoot {
+	background-color: #edf3fe;
+	border: 1px solid #666666;
+	border-width: 0 1px 1px 1px;
+	padding: 1px 5px;
+	text-align: right;
+	}
+
+.itemAdminLink {}
+
+.itemPermaLink {}
+
+
+/* Newbb Style --------------------- */
+
+.outer{
+	border: 1px solid #666666; width:100%;
+	}
+
+.head{
+	background-image: url(images/head_mid_bg.gif);
+	font-weight: normal;
+	padding: 0 5px;
+	}
+
+.head a:hover{
+	text-decoration: none;
+	}
+
+td.head a:link, td.head a:visited, td.head a:active{
+	font-size: 11px;
+	}
+
+.even{
+	background-color: #edf3fe;
+	vertical-align: top;
+	padding: 5px;
+	font-size: 11px;
+	}
+
+.odd{
+	background-color: #ffffff;
+	vertical-align: top;
+	padding: 5px;
+	font-size: 11px;
+	}
+
+tr.even td{
+	background-color: #edf3fe;
+	font-size:11px;
+	vertical-align: middle;
+	padding: 5px;
+	}
+
+tr.odd td{
+	background-color: #ffffff;
+	font-size:11px;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.foot{
+	background-color: #edf3fe;
+	padding: 5px;
+	}
+
+
+/* NEWBB Userbox Style ------------- */
+
+.comTitle {
+	font-weight: bold;
+	margin-bottom: 2px;
+	}
+
+.comText {
+	font-size: 13px;
+	line-height: 1.5em;
+	padding: 2px;
+	padding-bottom: 20px;
+	}
+
+.comUserStat {
+	font-size: 10px;
+	font-weight:bold;
+	border: 1px solid #666666;
+	margin: 2px; padding: 2px;
+	}
+
+.comUserStatCaption {
+	font-weight: normal;
+	}
+
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	color: #2F5376;
+	font-weight:bold;
+	font-size: 10px;
+	}
+
+.comUserRank {
+	margin: 2px;
+	}
+
+.comUserRankText {
+	font-size: 10px;
+	font-weight:bold;
+	}
+
+.comUserRankImg {
+	border: 0;
+	}
+
+.comUserName {
+	}
+
+.comUserImg {
+	margin: 2px;
+	}
+
+.comDate {
+	font-weight: normal;
+	font-style: italic;
+	font-size: smaller
+	}
+
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	}
+
+/* BBCODE Style -------------------- */
+
+div.xoopsCode {
+	border: 1px solid #666666;
+	border-width: 1px 1px 1px 1px;
+	font-family: "Courier New",Courier,monospace;
+	margin: 0px;
+	padding: 5px;
+	}
+
+div.xoopsQuote {
+	border: 1px solid #666666;
+	border-width: 1px 1px 1px 0;
+	border-left: 5px solid #666666;
+	padding: 4px;
+	font-weight: bold;
+	}
+
+blockquote {
+	margin: 3px -4px -4px -4px;
+	padding: 5px;
+	font-weight: normal;
+	}
+
+
+/* ERROR MESSAGE ------------------- */
+
+div.errorMsg {
+	background-color: #FFCCCC;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold;
+	padding: 10px;
+	}
+
+div.confirmMsg {
+	background-color: #DDFFDF;
+	color: #136C99;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	font-weight: bold;
+	padding: 10px;
+	}
+
+div.resultMsg {
+	background-color : #CCCCCC;
+	color: #333333;
+	text-align: center;
+	border-top: 1px solid silver;
+	border-left: 1px solid silver;
+	font-weight: bold;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	padding: 10px;
+}
